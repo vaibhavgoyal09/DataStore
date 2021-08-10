@@ -11,9 +11,9 @@ import com.mystikcoder.datastore.data.preferences.abstraction.DataStoreRepositor
 import kotlinx.coroutines.flow.first
 import javax.inject.Inject
 
-const val PREFERENCES_NAME = "my_preferences"
+private const val PREFERENCES_NAME = "my_preferences"
 
-val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = PREFERENCES_NAME)
+private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = PREFERENCES_NAME)
 
 class DataStoreRepositoryImpl @Inject constructor(
     private val context: Context

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DataStore</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="save_data">Save Data</string>
+    <string name="clear_data">Clear Fields</string>
+    <string name="get_data">Get data</string>
+</resources>
